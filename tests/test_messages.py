@@ -52,7 +52,7 @@ class HelpyMessagesTestCase(unittest.TestCase):
         )
 
         """ Use the arcpy Mock object to validate that 
-            CreateDomain_management is called with the appropriate 
+            AddMessage is called with the appropriate 
             parameters. 
         """
         mock_arcpy.AddMessage.assert_called_with(
