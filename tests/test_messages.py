@@ -2,7 +2,6 @@
 # Unit tests for archelpy.messages
 #######################################################################
 
-import datetime
 import unittest
 from unittest.mock import Mock, patch
 
